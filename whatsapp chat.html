@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp chat</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="script.js" defer>  </script>
+</head>
+
+<body>
+
+    <div >
+        <div id="main-menue" class=" bg-gray-900 p-3  ">
+            <!-- header -->
+            <div class="flex justify-between px-3 relative ">
+                <h1 class="text-white text-xl font-semibold">Whatsapp</h1>
+                <div>
+                    <i class="fa-solid fa-camera px-3 cursor-pointer" style="color: #ffffff;"></i>
+                    <i onclick="chatbar()" class="fa-solid fa-ellipsis-vertical  cursor-pointer"
+                        style="color: #ffffff;"></i>
+                </div>
+
+            </div>
+            <!-- side bar -->
+            <div id="sidebar"
+                class="absolute hidden rounded-md shadow-sm shadow-black py-2  right-2  text-white list-none bg-gray-800">
+                <li class="p-2 px-5 cursor-pointer hover:bg-gray-500">New group</li>
+                <li class="p-2 px-5 cursor-pointer hover:bg-gray-500">New broadcast</li>
+                <li class="p-2 px-5 cursor-pointer hover:bg-gray-500">Linked devices</li>
+                <li class="p-2 px-5 cursor-pointer hover:bg-gray-500">Starred message</li>
+                <li class="p-2 px-5 cursor-pointer hover:bg-gray-500">Settings</li>
+            </div>
+            <!-- input filed -->
+            <input type="text" class="p-2 px-3  my-3  focus:outline-none caret-white bg-gray-600 w-full rounded-full"
+                placeholder="Ask meta AI or search">
+            <!-- chat type -->
+            <div class="list-none flex">
+                <li class="active:text-green-400 bg-green-900 cursor-pointer  rounded-xl text-sm px-2 py-1 mx-2">All</li>
+                <li class="bg-gray-700 text-gray-300 cursor-pointer rounded-xl text-sm px-2 py-1 mx-2">Unread</li>
+                <li class="bg-gray-700 text-gray-300 cursor-pointer rounded-xl text-sm px-2 py-1 mx-2">Favourites</li>
+                <li class="bg-gray-700 text-gray-300 cursor-pointer rounded-xl text-sm px-2 py-1 mx-2">Groups</li>
+            </div>
+            <!-- chats -->
+            <div class="flex justify-between  p-3">
+                <div class="flex ">
+                    <img width="40px" src="./images/smilingwomen.png" alt="profile pic">
+                    <div class="mx-5">
+                        <h1 class="text-white">John doe</h1>
+                        <div class="flex ">
+                            <i class="fa-solid fa-check-double " style="color: #4180ec; "></i>
+                            <p class="text-gray-400 text-sm ml-2">Message delivered</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <p class="text-gray-400 text-sm ">5:45 pm</p>
+            </div>
+            <div class="flex justify-between   p-3">
+                <div class="flex ">
+                    <img width="40px" src="./images/smilingwomen.png" alt="profile pic">
+                    <div class="mx-5">
+                        <h1 class="text-white">John doe</h1>
+                        <div class="flex ">
+                            <i class="fa-solid fa-check-double " style="color: #4180ec; "></i>
+                            <p class="text-gray-400 text-sm ml-2">Message delivered</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <p class="text-gray-400 text-sm ">5:45 pm</p>
+            </div>
+            <div class="flex justify-between   p-3">
+                <div class="flex ">
+                    <img width="40px" src="./images/smilingwomen.png" alt="profile pic">
+                    <div class="mx-5">
+                        <h1 class="text-white">John doe</h1>
+                        <div class="flex ">
+                            <i class="fa-solid fa-check-double " style="color: #4180ec; "></i>
+                            <p class="text-gray-400 text-sm ml-2">Message delivered</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <p class="text-gray-400 text-sm ">5:45 pm</p>
+            </div>
+            <div class="flex justify-between   p-3">
+                <div class="flex ">
+                    <img width="40px" src="./images/smilingwomen.png" alt="profile pic">
+                    <div class="mx-5">
+                        <h1 class="text-white">John doe</h1>
+                        <div class="flex ">
+                            <i class="fa-solid fa-check-double " style="color: #4180ec; "></i>
+                            <p class="text-gray-400 text-sm ml-2">Message delivered</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <p class="text-gray-400 text-sm ">5:45 pm</p>
+            </div>
+            <div class="flex justify-between   p-3">
+                <div class="flex ">
+                    <img width="40px" src="./images/smilingwomen.png" alt="profile pic">
+                    <div class="mx-5">
+                        <h1 class="text-white">John doe</h1>
+                        <div class="flex ">
+                            <i class="fa-solid fa-check-double " style="color: #4180ec; "></i>
+                            <p class="text-gray-400 text-sm ml-2">Message delivered</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <p class="text-gray-400 text-sm ">5:45 pm</p>
+            </div>
+            <div class="flex justify-between  p-3"></div>
+                <div class="flex ">
+                    <img width="40px" src="./images/smilingwomen.png" alt="profile pic">
+                    <div class="mx-5">
+                        <h1 class="text-white">John doe</h1>
+                        <div class="flex ">
+                            <i class="fa-solid fa-check-double " style="color: #4180ec; "></i>
+                            <p class="text-gray-400 text-sm ml-2">Message delivered</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <p class="text-gray-400 text-sm ">5:45 pm</p>
+            </div>
+            <div class="flex justify-between   p-3">
+                <div class="flex ">
+                    <img width="40px" src="./images/smilingwomen.png" alt="profile pic">
+                    <div class="mx-5">
+                        <h1 class="text-white">John doe</h1>
+                        <div class="flex ">
+                            <i class="fa-solid fa-check-double " style="color: #4180ec; "></i>
+                            <p class="text-gray-400 text-sm ml-2">Message delivered</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <p class="text-gray-400 text-sm ">5:45 pm</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- update header -->
+    <div id="updates-btn" class=" bg-gray-900 p-3 hidden  min-h-screen">
+        <div class="flex justify-between px-3 relative ">
+            <h1 class="text-white text-xl font-semibold">Updates</h1>
+            <div>
+                <i class="fa-solid fa-camera px-3 cursor-pointer" style="color: #ffffff;"></i>
+                <i onclick="updatebar()" class="fa-solid fa-ellipsis-vertical cursor-pointer"
+                    style="color: #ffffff;"></i>
+            </div>
+        </div>
+        <!--update sidebar -->
+        <div id="update-sidebar"
+            class="absolute hidden rounded-md shadow-sm shadow-black py-2  right-2  text-white list-none bg-gray-800">
+            <li class="p-2 px-5 cursor-pointer hover:bg-gray-500">Status privacy</li>
+            <li class="p-2 px-5 cursor-pointer hover:bg-gray-500">Create channel</li>
+            <li class="p-2 px-5 cursor-pointer hover:bg-gray-500">Settings</li>
+
+        </div>
+        <div class="p-3">
+            <h1 class="text-white ">Status</h1>
+        </div>
+        <div class="p-3">
+            <div class="flex justify-between ">
+                <div class="flex ">
+                    <img width="40px" src="./images/smilingwomen.png" alt="profile pic">
+                    <div class="mx-5">
+                        <h1 class="text-white">My status</h1>
+                        <div class="flex ">
+                            <p class="text-gray-400 text-sm ">Tap to add status updates</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="my-3">
+                <h1 class="text-gray-400">Recent updates</h1>
+            </div>
+            <div>
+
+                <div class="flex ">
+                    <img width="40px" src="./images/smilingwomen.png" alt="profile pic">
+                    <div class="mx-5">
+                        <h1 class="text-white">John doe</h1>
+                        <div class="flex ">
+                            <p class="text-gray-400 text-sm ">Yesterday</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="flex flex-row  justify-between bg-gray-900 p-2">
+        <div onclick="chats()" class="active: flex flex-col items-center py-2 px-3 cursor-pointer">
+            <img src="./images/icons8-chat-32.png" alt="">
+            <p class="text-white text-sm">Chats</p>
+        </div>
+        <div onclick="updates()" class="flex flex-col items-center py-2 px-3 cursor-pointer">
+            <img width="32" src="./images/icons8-whatsapp-status-24.png" alt="">
+            <p class="text-white text-sm">Updates</p>
+        </div>
+        <div class="flex flex-col items-center py-2 px-3 cursor-pointer">
+            <img src="./images/icons8-community-32.png" alt="">
+            <p class="text-white text-sm">Community</p>
+        </div>
+        <div class="flex flex-col items-center py-2 px-3 cursor-pointer">
+            <img width="32px" src="./images/icons8-call-50.png" alt="">
+            <p class="text-white text-sm">Calls</p>
+        </div>
+    </div>
+</body>
+
+</html>
